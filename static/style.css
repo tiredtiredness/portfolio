@@ -1,0 +1,58 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: rgb(245, 245, 220);
+}
+header {
+    position: sticky;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    height: 30px;
+}
+a {
+    text-decoration: none;
+    color:rgb(245, 245, 220);
+    text-align: center;
+    font-weight: 700;
+}
+a:hover {
+    font-size: larger;
+    transition-duration: 0.3s;
+    text-shadow: 1px 0px 10px gold;
+    color: red;
+}
+.about {
+    display: flex;
+}
+.about div {
+    width: 50%;
+}
+img {
+    position: relative;
+    width: 100%;
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.my-name-is {
+    margin-bottom: 0;
+}
+.name {
+    margin: 5px 5px;
+    color: red;
+}
+.name:hover {
+    text-shadow: 1px 0px 20px rgb(255, 255, 0);
+}
+.nickname {
+    margin-top: 0;
+}
