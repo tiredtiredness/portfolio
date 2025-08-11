@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import 'tailwindcss';
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@utility mono {
+	font-family: 'JetBrains Mono', monospace;
+}
+
+body {
+	@apply flex min-h-dvh w-dvw flex-col p-4 mono dark:bg-neutral-900 dark:text-neutral-100;
+}
+
+@utility hover-shadow {
+	@apply hover:text-shadow-lg hover:text-shadow-neutral-300;
+}
+
+a,
+button {
+	@apply hover-shadow;
+}
