@@ -1,4 +1,4 @@
-import type { TranslatedString } from "$lib/types/index.ts";
+import type { TranslatedString } from '$lib/types/index.ts';
 
 export const content: TranslatedString = {
 	en: 'i build web applications using modern frontend tech and minimalist design.',

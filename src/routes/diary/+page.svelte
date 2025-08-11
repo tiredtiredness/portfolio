@@ -24,7 +24,7 @@
 		<p>Error loading posts.</p>
 	{:else}
 		<ul class="grid grid-cols-1 gap-4 overflow-y-auto">
-			{#each posts as post, index}
+			{#each posts as post, index (post._id)}
 				<li>
 					<div>
 						<time class="text-neutral-400"

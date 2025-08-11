@@ -57,4 +57,4 @@ To publish your library to [npm](https://www.npmjs.com):
 npm publish
 ```
 
-6.06 
+6.06

@@ -8,7 +8,7 @@
 <div class="flex h-full w-full flex-col items-center justify-center space-y-5">
 	<p>{content[lang]}</p>
 	<div class="flex justify-center gap-4">
-		{#each socials as social, index}
+		{#each socials as social, index (social.href)}
 			<a href={social.href} target="_blank" rel="noopener noreferrer"> {social.label[lang]}</a>
 			{#if index < socials.length - 1}
 				<span>/</span>

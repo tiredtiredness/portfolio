@@ -21,7 +21,7 @@
 		<p><a href="/">/constaui</a></p>
 		<nav class="flex grow md:ml-auto md:justify-center">
 			<ul class="flex flex-col md:flex-row md:items-center md:gap-4">
-				{#each navLinks as link}
+				{#each navLinks as link (link.href)}
 					<li>
 						<a
 							class=" {isCurrentPage(link.href) && 'text-shadow-lg text-shadow-neutral-300'}"

@@ -9,7 +9,7 @@
 <div class="flex h-full w-full flex-col items-center space-y-5">
 	<p>{content[lang]}</p>
 	<div class="flex flex-col gap-5 pb-5">
-		{#each projects as project}
+		{#each projects as project (project.label)}
 			<ProjectCard {...project} />
 		{/each}
 	</div>
