@@ -8,14 +8,18 @@
 }
 
 body {
-	@apply flex min-h-dvh w-dvw flex-col p-4 mono dark:bg-neutral-900 dark:text-neutral-100;
+	@apply mono flex min-h-dvh w-dvw flex-col p-4 dark:bg-neutral-900 dark:text-neutral-100;
 }
 
 @utility hover-shadow {
 	@apply hover:text-shadow-lg hover:text-shadow-neutral-300;
 }
 
+a {
+	@apply hover-shadow;
+}
+
 a,
 button {
-	@apply hover-shadow;
+	@apply hover:cursor-pointer disabled:cursor-not-allowed;
 }

@@ -49,7 +49,7 @@
 {#if imagesLength > 0}
 	<div class="mx-auto grid w-full max-w-4xl grid-cols-[auto_1fr_auto] items-center gap-2 p-2">
 		<button
-			class="p-2 text-xl disabled:opacity-50"
+			class="p-2 text-xl hover-shadow disabled:opacity-25 disabled:text-shadow-transparent"
 			aria-label="Previous image"
 			disabled={currentIndex === 0}
 			onclick={showPrev}
@@ -67,7 +67,7 @@
 		</div>
 
 		<button
-			class="p-2 text-xl disabled:opacity-50"
+			class="p-2 text-xl hover-shadow disabled:opacity-25 disabled:text-shadow-transparent"
 			aria-label="Next image"
 			disabled={currentIndex === imagesLength - 1}
 			onclick={showNext}
