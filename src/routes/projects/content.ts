@@ -19,11 +19,11 @@ export const projects: Project[] = [
 		],
 		images: [
 			{
-				src: 'projects/impersonator/1.png',
+				src: 'projects/impersonator/1.webp',
 				alt: { en: '', ru: '' }
 			},
 			{
-				src: 'projects/impersonator/2.png',
+				src: 'projects/impersonator/2.webp',
 				alt: { en: '', ru: '' }
 			}
 		]
@@ -37,23 +37,23 @@ export const projects: Project[] = [
 		hrefs: [{ label: projectLabel.github, href: 'https://github.com/tiredtiredness/mayorverse' }],
 		images: [
 			{
-				src: 'projects/mayorverse/1.jpeg',
+				src: 'projects/mayorverse/1.webp',
 				alt: { en: '', ru: '' }
 			},
 			{
-				src: 'projects/mayorverse/2.jpeg',
+				src: 'projects/mayorverse/2.webp',
 				alt: { en: '', ru: '' }
 			},
 			{
-				src: 'projects/mayorverse/3.jpeg',
+				src: 'projects/mayorverse/3.webp',
 				alt: { en: '', ru: '' }
 			},
 			{
-				src: 'projects/mayorverse/4.jpeg',
+				src: 'projects/mayorverse/4.webp',
 				alt: { en: '', ru: '' }
 			},
 			{
-				src: 'projects/mayorverse/5.jpeg',
+				src: 'projects/mayorverse/5.webp',
 				alt: { en: '', ru: '' }
 			}
 		]
@@ -88,15 +88,15 @@ export const projects: Project[] = [
 		],
 		images: [
 			{
-				src: 'projects/64/1.png',
+				src: 'projects/64/1.webp',
 				alt: { en: '', ru: '' }
 			},
 			{
-				src: 'projects/64/2.png',
+				src: 'projects/64/2.webp',
 				alt: { en: '', ru: '' }
 			},
 			{
-				src: 'projects/64/3.png',
+				src: 'projects/64/3.webp',
 				alt: { en: '', ru: '' }
 			}
 		]
@@ -110,15 +110,15 @@ export const projects: Project[] = [
 		hrefs: [{ label: projectLabel.showcase, href: 'https://brut.spb.ru' }],
 		images: [
 			{
-				src: 'projects/brut/1.png',
+				src: 'projects/brut/1.webp',
 				alt: { en: '', ru: '' }
 			},
 			{
-				src: 'projects/brut/2.png',
+				src: 'projects/brut/2.webp',
 				alt: { en: '', ru: '' }
 			},
 			{
-				src: 'projects/brut/3.png',
+				src: 'projects/brut/3.webp',
 				alt: { en: '', ru: '' }
 			}
 		]
